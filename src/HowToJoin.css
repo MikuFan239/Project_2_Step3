@@ -1,0 +1,55 @@
+/* Intro: Title */
+.joinTitle h1 {
+   text-align: start;
+   display: block;
+   font-size: 4.5vw;
+   color: rgb(255, 255, 255);
+}
+
+/* Step title */
+.steps h2 {
+   font-size: 2.3vw;
+   color: #E64691;
+   border: 4px solid #ffff;
+   margin-right: 75%;
+   padding-inline: 6%;
+}
+
+.stepContent {
+   padding: 7%;
+}
+
+.stepContent p {
+   font-size: 1.25vw;
+   color: #ffff;
+}
+
+.steps .arrowRight {
+   border-width: 0 6px 6px 0;
+   border-color: #E64691;
+   margin-bottom: 0.3vmax;
+}
+
+/* Progress button */
+.howToJoin .stepBTN {
+   text-align: end;
+   padding-bottom: 0.3%;
+}
+
+.howToJoin2 .stepBTN {
+   display: flex;
+   justify-content: space-between;
+   text-align: end;
+   padding-bottom: 5%;
+}
+
+.stepBTN button {
+   margin-bottom: 5%;
+   padding-block: 0.95vh;
+   padding-inline: 1vw;
+   font-size: 1.5vw;
+   font-weight: bold;
+   color: #ffffff;
+   background-color: #E64691;
+   border-color: transparent;
+}

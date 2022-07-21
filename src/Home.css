@@ -1,0 +1,116 @@
+/*                */
+/* Intro section  */
+/*                */
+
+/* Home: intro */
+.home .intro {
+   display: grid;
+   grid-template-columns: auto;
+   color: #ffffff;
+   height: 60vmax;
+   margin-bottom: -7vmax;
+ }
+ 
+ .home .intro .intro-title {
+   text-align: start;
+ }
+ 
+ .home .intro .intro-title h1 {
+   font-size: 4.5vw;
+ }
+ 
+ .home .intro .intro-title p {
+   text-align: end;
+   margin-top: -4%;
+   margin-right: 21%;
+   font-size: 1.65vw;
+ }
+
+ /* Carousel inside intro section */
+ .intro-carousel {
+   margin-top: 0.5%;
+ }
+ .intro-carousel .carousel {
+   max-width: 59%;
+   max-height: 45vh;
+ }
+ 
+.intro-carousel .miku img {
+   position: relative;
+   margin-bottom: -30%;
+   top: -46vh; 
+   left: 36.5vw;
+   max-width: 46vw;
+ }
+ 
+ .intro-carousel .miku p {
+   position: relative;
+   top: -5vmax;
+   margin-left: 80%;
+   font-size: 1.25vw;
+   z-index: 3;
+ }
+
+/*                */
+/* TimeL section  */
+/*                */
+ 
+ /* Home: content */
+ .home .past-concert {
+   margin-top: -3.7vmax;
+   color: #ffffff;
+ }
+ 
+ .home .past-concert .title h2 {
+   margin-right: 22vw;
+   font-size: 3.3vw;
+   padding-right: 0;
+   border-bottom: 4px solid;
+ }
+ 
+/*                */
+/* Aboutsection  */
+/*                */
+ 
+ /* Home: About */
+ .home .about {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   position: relative;
+   top: 15vmax;
+   color: #ffffff;
+ }
+ 
+ .home .about .about-content {
+   grid-column: 2/5;
+ }
+ 
+ .home .about .about-content h2 {
+   margin-left: -5vw;
+   text-align: end;
+   font-size: 3.3vw;
+   padding-left: 11vw;
+   border-bottom: 4px solid;
+ }
+ 
+ .home .about .about-content p {
+   text-align: start;
+   padding-left: 10%;
+   max-width: 45vw;
+   font-size: 1.3vw;
+   line-height: 1.5;
+ }
+ 
+.about-miku img {
+   position: relative;
+   top: 130px;
+   padding-bottom: 30px;
+   max-width: 24vw;
+ }
+ 
+.about-miku p {
+   position: relative;
+   top: 6%;
+   left: 20vw;
+   font-size: 1.25vw;
+ }

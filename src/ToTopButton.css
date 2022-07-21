@@ -1,0 +1,61 @@
+/* Referecen: https://stackabuse.com/how-to-scroll-to-top-in-react-with-a-button-component/ */
+
+/* To top button */
+.toTopButton {
+  text-align: end;
+}
+
+.icon-position{
+   position: fixed;
+   bottom: 20px;
+   right: 10px;
+   z-index: 10;
+}
+
+.icon-style{
+   background-color: #E64691;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   color: #fff;
+   cursor: pointer;
+   animation: movebtn 3s ease-in-out infinite;
+   transition: all .3s ease-in-out;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #E64691;
+  border: 2px solid #E64691;
+}
+
+.icon-style:hover~.tooltipToTop{
+  display: block;
+  word-spacing: 9999rem;
+}
+
+ /* Tooltip */
+.tooltipToTop {
+  display: none;
+  position: fixed;
+  font-weight: bold;
+  bottom: 86px;
+  right: 20px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0);
+  color: #E64691;
+}
+
+ /* Animation */
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
